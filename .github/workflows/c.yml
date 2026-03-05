@@ -5,14 +5,14 @@ name: C
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/c/**/*.c"
       - "codes/c/**/*.h"
       - "en/codes/c/**/*.c"
       - "en/codes/c/**/*.h"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/c/**/*.c"
       - "codes/c/**/*.h"

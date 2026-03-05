@@ -2,14 +2,14 @@ name: Rust
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/rust/**/*.rs"
       - "codes/rust/Cargo.toml"
       - "en/codes/rust/**/*.rs"
       - "en/codes/rust/Cargo.toml"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/rust/**/*.rs"
       - "codes/rust/Cargo.toml"

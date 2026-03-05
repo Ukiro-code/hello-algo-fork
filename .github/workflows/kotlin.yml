@@ -2,12 +2,12 @@ name: Kotlin
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/kotlin/**/*.kt"
       - "en/codes/kotlin/**/*.kt"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/kotlin/**/*.kt"
       - "en/codes/kotlin/**/*.kt"

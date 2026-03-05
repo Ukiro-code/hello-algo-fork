@@ -4,12 +4,12 @@ name: Dart
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/dart/**/*.dart"
       - "en/codes/dart/**/*.dart"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/dart/**/*.dart"
       - "en/codes/dart/**/*.dart"

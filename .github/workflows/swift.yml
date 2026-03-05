@@ -5,12 +5,12 @@ name: Swift
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/swift/**/*.swift"
       - "en/codes/swift/**/*.swift"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/swift/**/*.swift"
       - "en/codes/swift/**/*.swift"

@@ -5,12 +5,12 @@ name: Python
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/python/**/*.py"
       - "en/codes/python/**/*.py"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/python/**/*.py"
       - "en/codes/python/**/*.py"
