@@ -5,12 +5,12 @@ name: Java
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/java/**/*.java"
       - "en/codes/java/**/*.java"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/java/**/*.java"
       - "en/codes/java/**/*.java"

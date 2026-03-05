@@ -2,12 +2,12 @@ name: JavaScript
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/javascript/**/*.js"
       - "en/codes/javascript/**/*.js"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/javascript/**/*.js"
       - "en/codes/javascript/**/*.js"

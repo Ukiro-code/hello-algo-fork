@@ -5,12 +5,12 @@ name: .NET
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/csharp/**/*.cs"
       - "en/codes/csharp/**/*.cs"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/csharp/**/*.cs"
       - "en/codes/csharp/**/*.cs"
