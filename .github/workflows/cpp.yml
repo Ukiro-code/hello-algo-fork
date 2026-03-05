@@ -5,14 +5,14 @@ name: C++
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/cpp/**/*.cpp"
       - "codes/cpp/**/*.hpp"
       - "en/codes/cpp/**/*.cpp"
       - "en/codes/cpp/**/*.hpp"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/cpp/**/*.cpp"
       - "codes/cpp/**/*.hpp"

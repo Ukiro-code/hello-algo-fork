@@ -7,12 +7,12 @@ name: Ruby
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/ruby/**/*.rb"
       - "en/codes/ruby/**/*.rb"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/ruby/**/*.rb"
       - "en/codes/ruby/**/*.rb"

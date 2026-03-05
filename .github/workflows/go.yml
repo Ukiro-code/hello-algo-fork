@@ -2,12 +2,12 @@ name: Go
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/go/**/*.go"
       - "en/codes/go/**/*.go"
   pull_request:
-    branches: ["main"]
+    branches: ["main", "test"]
     paths:
       - "codes/go/**/*.go"
       - "en/codes/go/**/*.go"
