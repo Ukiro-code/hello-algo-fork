@@ -50,7 +50,7 @@ console.log('\nArray nums = ' + nums);
 // Binary search for insertion point
 for (const target of [6, 9]) {
     const index = binarySearchInsertionSimple(nums, target);
-    console.log('Element ' + target + ''s insertion point index is ' + index);
+    console.log("Element " + target + "'s insertion point index is " + index);
 }
 
 // Array with duplicate elements
@@ -59,7 +59,7 @@ console.log('\nArray nums = ' + nums);
 // Binary search for insertion point
 for (const target of [2, 6, 20]) {
     const index = binarySearchInsertion(nums, target);
-    console.log('Element ' + target + ''s insertion point index is ' + index);
+    console.log("Element " + target + "'s insertion point index is " + index);
 }
 
 export { binarySearchInsertion };
